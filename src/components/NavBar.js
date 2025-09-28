@@ -1,9 +1,12 @@
 import React from "react";
 
+
+
 function NavBar() {
   return (
-    <nav>
-      <a href="#home">I'm a link!</a>
+    <nav id="Navbar">
+      <a href="#Navbar">I'm a link!</a>
     </nav>
   );
 }
+export default NavBar

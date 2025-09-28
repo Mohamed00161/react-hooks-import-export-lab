@@ -2,10 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+    <div>
+      <h1>About This App</h1>
+      <p>This app is built with React for learning import/export.</p>
     </div>
   );
 }
+
+export default About;
